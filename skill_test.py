@@ -46,7 +46,7 @@ def convert_username(user,user_type):
         
     return None
 
-result = convert_username("jms_dot_py","username")
+result = convert_username("twitter handle","username")
 
 print "Screen name [name]: ", result['name']
 print "User Id: ", result['id']
